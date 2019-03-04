@@ -104,17 +104,6 @@ void generateSetOfNumbers(int questionOrder[], int length)
     	cout << "\nRandom shuffle not working!\n";
     	assert(goodSet);
     }
-
-	/*int testNum = 1;
-	for(int i = 0; i < length; i++){
-		/*if((i + 1) % qPerTest == 0){
-			cout << "Test " << testNum << "\t";
-			testNum++;
-		}
-		cout << i + 1 << ": " << questionOrder[i] + 1 << "\t";
-		if((i + 1) % qPerTest == 0)
-			cout << endl;
-	}*/
 }
 
 //Checks that the array all the numbers from 0 to length and that there are no repeats.
@@ -173,7 +162,6 @@ void numOfTests(int &numTests, int &qPerTest, List<string> &questions){
 				 << "Is that ok? (Enter any key to continue or N to try a new number) ";
 		}
 		cin >> input;
-		//getline(cin, input);
 	}
 }
 
@@ -208,43 +196,6 @@ void printPractice(int numTests, int qPerTest, List<string> &questions, int ques
 			if(input == "q" || input == "Q"){
 				i = numTests;
 			}
-			//getline(cin, input)
 		}
 	}
 }
-
-/*
-string temp;
-List<string> set1, set2, set3;
-for(int i = 0; i < length; i++){
-	if(i<12){
-		questions.advanceToIndex(questionOrder[i]+1);
-		temp = questions.getIterator();
-		set1.insertLast(temp);
-	}if(i > 11 && i<24){
-		questions.advanceToIndex(questionOrder[i]+1);
-		temp = questions.getIterator();
-		set2.insertLast(temp);
-	}if(i >= 24){
-		questions.advanceToIndex(questionOrder[i]+1);
-		temp = questions.getIterator();
-		set3.insertLast(temp);
-	}
-}
-cout << "\nHere is set1\n";
-set1.printNumberedList();
-cin >> temp;
-cout << "\nHere is set2\n";
-set2.printNumberedList();
-cin >> temp;
-cout << "\nHere is set3\n";
-set3.printNumberedList();
-int numberOfTests = length / 12;
-for(int i = 0; i < numberOfTests; i++){
-	for(int j = 0; j < length / numberOfTests; j++){
-
-	}
-}*/
-
-
-
