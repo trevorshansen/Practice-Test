@@ -1,0 +1,73 @@
+What is an ADT and how would you define it?
+What is a data structure?
+What is the difference between an ADT and a data structure?
+What is a precondition? What are the preconditions for each of your List functions?
+What is a postcondition? Give an example using your List ADT? 
+What is an access function? Give an example from your List ADT?
+What is a manipulation procedure? Give an example from your List ADT?
+What is a constructor? What is its purpose?
+What is a destructor? What is its purpose?
+What is a copy constructor? What is its purpose? How do you call a copy constructor?
+What is the difference between a deep and shallow copy?
+How would you write a copy constructor to create a deep copy of an object?
+What are the advantages of using an array over a linked list to store data?
+What are the advantages of using a linked list over an array to store data?
+How do you write insertFirst and insertLast for a linked list (single and doubly linked)?
+How do you write removeFirst and removeLast for a linked list (doubly linked)?
+What is an iterator?
+How would you write removeIterator, insertIterator, getIterator, startIterator, advanceIterator?
+What is the difference between a singly and doubly linked list?
+What is the difference between a Stack and a Queue?
+What are FIFO and LIFO and how do they relate to stacks and queues?
+How do you write enqueue and dequeue for a Queue?
+How do you write push and pop for a Stack?
+How would you write the Stack and Queue constructors
+What is recursion?
+What are the different parts of a recursive function (hint think base case and recursive call)?
+What is the function call stack? Describe how recursion works with the function call stack?
+What is a stack frame?
+What is a stack overflow error?
+What is the difference between iteration and recursion?
+How do you write the following recursive functions: bunnyEars, fibonnacci, powerOfN, factorial?
+How do you print a list in reverse both iteratively and recursively
+What is the Big-O runtime of binary search in the best, worst and average cases
+What is the Big-O runtime of linear search in the best, worst and average cases
+How do you write binary search (recursive)?
+How do you write linear search (not recursive)?
+How is a Tree different from the linear data structures we have seen so far in this class?
+What is a Binary Tree?
+How do you determine if a Binary Tree is balanced?
+How do you define a Binary Search Tree ADT?
+How is a BST a recursive structure?
+(Refer to BST image in midterm 2 study guide) Label the root, leaves, and interior nodes, and give one example of a child, parent, sibling, cousin, descendant, and ancestor relationship. 
+(Refer to BST image in midterm 2 study guide) What are the height and depth of the nodes 12, 54, and 50?
+(Refer to BST image in midterm 2 study guide) Is the above tree a binary tree? Why or why not?
+(Refer to BST image in midterm 2 study guide) Is the above tree a BST? Why or why not?
+What is the Big-O run-time of search, insert and delete operations on a BST in best, average and worst case? 
+Trace recursive tree traversals inOrder, preOrder, postOrder on the above BST.
+Write the code or pseudocode for preOrderPrint, inOrderPrint and postOrderPrint.
+What are the three cases you need to take into consideration when implementing the BST remove operation?
+Draw the BST that results from inserting the following values: 55, 90, 32, 16, 7, 101, 68, 42, 89, 112.
+Write the helper and wrapper function for BST insert. How is this code similar to the Binary Search Algorithm?
+What is a Hash Table?
+What are the advantages of using a Hash Table over other ADTs we have studied: Arrays, Linked Lists (and other linear structures), Binary Search Trees
+What is a hashing algorithm? How do you write a good hashing algorithm?
+True or False: A function that returns a random number between 0 and the size of the table -1 would be a good hash function.
+Write the hash function defined in class.
+True or False: When implementing a hash function in C++, this function is likely to return a string if the data being stored in the table is string data?
+What is linear probing?
+What is separate chaining?
+How are linear probing and separate chaining different?
+How do you search for an element in a Hash Table?
+What is the Big-O runtime of the hash table operations insert, search and remove in the best, worst and average case?
+What is the load factor?
+What is the rule of thumb for selecting a table size, and how does this rule of thumb, along with the concept of the load factor, contribute to creating an efficient Big-O runtime for the the hash table operations? Explain.
+Write the pseudocode for the mergeSort operation. Note that you do not need to write the helper function merge. mergeSort(A, low, high)
+What is the Big O run-time of MergeSort in the best, worst and average case? Best: O ( ), Average: O ( ), Worst: O ( )
+Give an example of a sorting algorithm that we have studied in this class that falls into each of the following categories: An in-place sorting algorithm: A comparison-based sorting algorithm: A divide-and-conquer sorting algorithm: A parallel sorting algorithm:
+Trace each step of the buildMaxHeap operation (diagram and array) on the following: A = [4, 9, 7, 18, 2, 3]
+Trace heapInsert on the below Max Heap and the value 35. Show diagram and array at each step below: A = [21, 11, 13, 2, 9]
+Trace the merge sort algorithm on the following array of values: [50, 2, 12, 17, 6, 1, 4, 52]
+Trace heapSort on the following heap. Show diagram and array at each step below: A = [100, 90, 80, 70]
+(Refer to first graph image in midterm 2) Write the adjacency list representation of below graph in the format shown in class, then trace DFS on the above graph and draw the DFS Forest. Now, trace BFS on the above Graph and write the queue. Also Draw the BFS Tree. How do the tracings for BFS and DFS differ?
+(Refer to second graph image in midterm 2) Write the adjacency list representation of below graph in the format shown in class, then trace DFS on the above graph and draw the DFS Forest. Now, trace BFS on the above Graph and write the queue. Also Draw the BFS Tree. How do the tracings for BFS and DFS differ?
